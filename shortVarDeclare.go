@@ -9,3 +9,5 @@ func main() {
 
 	fmt.Println(i, j, k, c, python, java)
 }
+
+//outside of a function, every statement begins with a keyword (var, func, etc) so the := construct is not available
