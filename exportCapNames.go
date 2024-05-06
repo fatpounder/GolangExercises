@@ -2,8 +2,11 @@ package main
 
 import (
 	"fmt"
+	"math"
 )
 
 func main() {
-	fmt.Println(math.pi)
+	fmt.Println(math.Pi)
 }
+
+//capitalized means it is Exported and accessible from outside the package
