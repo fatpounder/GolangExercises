@@ -4,9 +4,11 @@ import "fmt"
 
 var c, python, java bool
 
+const d int = 42
+
 func main() {
 	var i int
-	fmt.Println(i, c, python, java)
+	fmt.Println(i, c, python, java, d)
 }
 
 //var declares list of variables, in function lists the type is last
