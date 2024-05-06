@@ -11,3 +11,5 @@ func main() {
 
 //var declares list of variables, in function lists the type is last
 //var can be at package or function
+
+//runs at the zero values since no values assigned
