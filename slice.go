@@ -16,3 +16,5 @@ func main() {
 //the capacity of a slice is the number of elements in the referenced array, counting the first element in the slice
 //the length and capacity of a slice s can be obtained using the expressions len(s) and cap(s)
 //you can extend a slice's length by re-slicing it, provided it has sufficient capacity
+//the zero value of a slice is nil
+//a nil slice has a length and capacity of 0 and has no underlying array
