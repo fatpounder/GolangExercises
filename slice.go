@@ -8,3 +8,5 @@ func main() {
 	var s []int = primes[1:4]
 	fmt.Println(s)
 }
+
+//a slice does not store data, but rather describes a section of the referenced array
