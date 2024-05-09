@@ -10,3 +10,6 @@ func main() {
 }
 
 //a slice does not store data, but rather describes a section of the referenced array
+//when slicing, you can omit the high or low bounds to use their defaults instead
+//default for low bound is zero and default for high bound is the length of the array
+//for the array var a [10]int, the following slices are the same: a[0:10], a[:10], a[0:], a[:]
