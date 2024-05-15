@@ -22,3 +22,4 @@ func main() {
 //a method is a function with a special "receiver" argument
 //the receiver appears as its own argument list between the func keyword and the method name
 //here, the Abs methods has a receiver of type Vertex named v
+//Remember, methods ARE functions, just with a receiver argument
