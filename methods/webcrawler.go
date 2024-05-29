@@ -9,8 +9,6 @@ type Fetcher interface {
 }
 
 func Crawl(url string, depth int, fetcher Fetcher) {
-	// TODO: Fetch URLs in parallel.
-	// TODO: Don't fetch the same URL twice.
 
 	if depth <= 0 {
 		return
